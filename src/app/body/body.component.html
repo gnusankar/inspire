@@ -1,0 +1,8 @@
+<div class=" ">
+    <div *ngFor="let item of userData" class="card"  (click)="goToProduct(item)">
+        <div> Username: {{item.name}}</div>
+        <div> Email ID: {{item.email}}</div>
+        <div> Post Title: {{item.title}}</div>
+        <div> Message excerpt: {{item.body}}</div>
+    </div>
+  </div>
